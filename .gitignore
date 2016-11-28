@@ -90,3 +90,7 @@ ENV/
 
 node_modules
 
+#Settings
+/afterhacks/settings.py/production.py
+/afterhacks/settings.py/dev.py
+
