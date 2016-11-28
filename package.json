@@ -1,0 +1,26 @@
+{
+  "name": "afterhacks",
+  "version": "1.0.0",
+  "description": "Allows users to show off their hacks for free and ask for help",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trizzle21/afterhacks.git"
+  },
+  "keywords": [
+    "hackathon",
+    "help"
+  ],
+  "author": "Tyler Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trizzle21/afterhacks/issues"
+  },
+  "homepage": "https://github.com/trizzle21/afterhacks#readme",
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  }
+}
