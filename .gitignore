@@ -93,9 +93,6 @@ node_modules
 #Settings
 afterhacks/settings/production.py
 afterhacks/settings/dev.py
-<<<<<<< HEAD
+
 bfg.jar
 .git.bfg-report/
-=======
-
->>>>>>> 6da9b10e41f73ea770c8083a2512ac6ffd26647b
