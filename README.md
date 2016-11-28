@@ -33,7 +33,9 @@ Alpha 1.0 AfterHacks
 ##### Python
 
 To set up virtual environment, and set up python
+
 `virtualenve -p python3 venv`
+
 `pip install -r requirements.txt`
 
 For production settings,
@@ -41,6 +43,7 @@ For production settings,
 
 ##### Node/React/Webpack
 To set up the node.js environment, 
+
 `npm install package.json`
 
 
