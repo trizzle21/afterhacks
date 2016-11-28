@@ -96,3 +96,7 @@ afterhacks/settings/dev.py
 
 bfg.jar
 .git.bfg-report/
+
+#dbs
+*.sqlite3
+
