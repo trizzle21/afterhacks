@@ -36,7 +36,15 @@ To set up virtual environment, and set up python
 
 `virtualenve -p python3 venv`
 
+To activate, 
+
+`source venv/bin/activate`
+
 `pip install -r requirements.txt`
+
+To deactivate,
+
+`deactivate`
 
 For production settings,
 `./manage.py migrate —settings=afterhacks.settings.production`
