@@ -100,3 +100,5 @@ bfg.jar
 #dbs
 *.sqlite3
 
+design
+afterhacks/settings.py
