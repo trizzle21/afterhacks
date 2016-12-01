@@ -1,1 +1,3 @@
-var require 
+import React from "react";
+
+
