@@ -14,7 +14,7 @@
 Alpha 1.0 AfterHacks
 
 ##Introduction
-
+AfterHacks is a site designed to allow students and professionals demo their projects to others and ask for help. 
 
 ##Tutorial
 
