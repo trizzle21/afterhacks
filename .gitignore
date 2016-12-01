@@ -93,6 +93,8 @@ node_modules
 #Settings
 afterhacks/settings/production.py
 afterhacks/settings/dev.py
+afterhacks/settings/base.py
+
 
 bfg.jar
 .git.bfg-report/
@@ -102,5 +104,5 @@ bfg.jar
 
 design
 afterhacks/settings.py
-afterhacks/settings
+afterhacks/settings/*
 
