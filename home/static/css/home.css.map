@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACL,gBAAgB,ECCF,OAAO;;ADEtB,UAAW;EACV,KAAK,EAAE,GAAG;EACV,gBAAgB,ECCG,OAAO;EDA1B,MAAM,EAAE,MAAM",
+"sources": ["scss/partials/body.scss","scss/modules/colors.scss"],
+"names": [],
+"file": "home.css"
+}
