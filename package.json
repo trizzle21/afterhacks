@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/trizzle21/afterhacks#readme",
   "devDependencies": {
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-bundle-tracker": "^0.1.0"
   },
   "dependencies": {
     "react": "^15.4.1",
