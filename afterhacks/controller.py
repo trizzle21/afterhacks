@@ -1,12 +1,16 @@
-from flask import Flask
-app = Flask(__name__)
-
-
-app.config['DEBUG'] = True
-
-
+from flask import Flask, render_template
+from afterhacks import app
 
 @app.route('/')
 def index():
-    return 'Index Page'
+    return render_template('landing.html')
 
+
+
+
+
+
+
+
+# @app.route('/api/projects')
+# def project_dump():

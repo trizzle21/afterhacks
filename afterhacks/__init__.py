@@ -11,7 +11,7 @@ app.config.from_object('config')
 app.config.from_pyfile('config.py')
 
 
-#db = SQLAlchemy(app)
+db = SQLAlchemy(app)
 
 
 from flask_assets import Environment, Bundle
@@ -27,5 +27,5 @@ from flask_assets import Environment, Bundle
 # )
 
 
-# from . import controllers
+from . import controller
 
