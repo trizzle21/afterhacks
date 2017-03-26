@@ -20,4 +20,9 @@ class User(db.Model):
 
 
     @classmethod
-    def get_by_id(self, )
+    def get_by_id(self, id):
+
+    	if id 
+
+
+    def 
