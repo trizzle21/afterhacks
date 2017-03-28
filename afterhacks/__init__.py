@@ -27,5 +27,5 @@ from flask_assets import Environment, Bundle
 # )
 
 
-from . import controller
+from afterhacks import controller, models
 
