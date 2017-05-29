@@ -1,29 +1,28 @@
-from flask import Flask, render_template
-from flask_login import LoginManager
+""" Controller that controls routes
+
+"""
+from flask import render_template, redirect, url_for
 from afterhacks import app
 
-
-
-login_manager = LoginManager()
-
-login_manager.init_app(app)
-
+from .forms import EmailPasswordForm
 
 
 @app.route('/')
+@app.route('/index')
 def index():
     return render_template('landing.html')
 
 
 
+@app.route('/login', methods=["GET", "POST"])
+def login():
+    form = EmailPasswordForm()
+    if form.validate_on_submit():
 
 
-
+        return redirect(url_for('index'))
+    return render_template('login.html', form=form)
 
 
 # @app.route('/api/projects')
 # def project_dump():
-
-
-def index():
-    return render_template('landing.html')

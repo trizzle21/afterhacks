@@ -1,12 +1,11 @@
-#Initializes Server
+""" Initializes Server """
 
 
-if __name__ == '__main__':	
-	import os
-	from afterhacks import app
+if __name__ == '__main__':
+    import os
+    from afterhacks import app
 
 
-	app.run(
-		
-	)
+    app.run(
 
+    )
